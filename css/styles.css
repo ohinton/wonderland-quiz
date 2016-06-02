@@ -1,0 +1,7 @@
+img {
+  width: 300px;
+}
+
+#alice, #caterpillar, #dormouse, #mad-hatter {
+  display: none;
+}

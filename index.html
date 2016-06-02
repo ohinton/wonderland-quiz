@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Alice in Wonderland Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Alice in Wonderland Character Quiz</h1>
+      <p>Find out which character you are!</p>
+
+      <form id="wonderland-character">
+        <div>
+          <div class="radio">
+            <p>Are you calm or crazy?</p>
+            <label>
+              <input type="radio" name="operator" value="calm" checked>
+              I'm calm!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="operator" value="crazy">
+              I'm crazy!
+            </label>
+          </div>
+        </div>
+        <br>
+        <div>
+          <p>What's your favorite treat?</p>
+          <select class="form-control" id="treat">
+            <option value="tea">Tea</option>
+            <option value="cookies">Cookies</option>
+            <option value="hookah">Hookah</option>
+          </select>
+        </div>
+        <br>
+        <br>
+        <button type="submit" class="btn">Who am I?</button>
+      </form>
+
+      <div id= "alice">
+        <h3> You are Alice!</h3>
+        <img src="img/alice.png" alt="Alice">
+      </div>
+      <div id= "caterpillar">
+        <h3> You are the Caterpillar!</h3>
+        <img src="img/caterpillar.png" alt="Caterpillar" >
+      </div>
+      <div id= "dormouse">
+        <h3> You are the Dormouse!</h3>
+        <img src="img/dormouse.gif" alt="Dormouse" >
+      </div>
+      <div id= "mad-hatter">
+        <h3> You are the Mad Hatter!</h3>
+        <img src="img/mad-hatter.gif" alt="Mad Hatter" >
+      </div>
+    </div>
+  </body>
+</html>
